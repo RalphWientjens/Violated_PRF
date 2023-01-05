@@ -15,7 +15,7 @@ Subject SHOULD be specified according the the BIDS convention (sub-001, sub-002 
 
 This task uses the 2R task from marcoaqil, in which the barpass has 2 squares and regular speed (20TR bar passes, aka 30 seconds with our standard sequence).
 
-Currently, an incomplete run is used as an example violated PRF experiment (see 'runs notebook') when running the experiment, this should still be altered to also directly accessible from initiation of the experiment. This should still be altered.
+Currently, an incomplete run is used as an example violated PRF experiment (see 'runs notebook') when running the experiment, this should still be altered to also directly accessible from initiation of the experiment. This still has to be changed.
 
 #### Settings file
 
