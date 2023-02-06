@@ -35,7 +35,7 @@ In the runs notebook, the runs for the participants can be computed. A standard 
 - The third configuration only has the violations that occurred in the previous configuration are shown, without the barpasses of the standard run.
 - In the final configuration, the same positions that were previously violated, are now omitted from the regular bar-passes.
 
-##### In the second section of the paradigm, the three configurations are shown consecutively for each bar-orientation in a random order.
+- In the second section of the paradigm, the three configurations are shown consecutively for each bar-orientation in a random order.
 
 The final, total runs can be made by using either of the two large functions: create_violation_run() and new_run(). Here a name can be given to the total run, which can be subject specific. This run will then be saved in the run_list folder in the experiment folder.
 ##### **Note! : Now the notebook only saves the violated part of the run, this still has to be altered to all three parts combined.**
