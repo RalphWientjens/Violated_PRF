@@ -29,11 +29,13 @@ You can change the task parameters in the settings file under "Task settings:"
 
 #### Runs notebook
 
-In the runs notebook, the runs for the participants can be computed. A standard run is made by using only horizontal and vertical barpasses. In total there are three different parts during the task:
+In the runs notebook, the runs for the participants can be computed. A standard run is made by using only horizontal and vertical barpasses. The first section of the paradigm only consists of such runs. In second section of the paradigm, there are three different configuration of bar-passes:
 
-- The standard runs part in which there are barpasses from left to right, up to down, right to left and down to up, which repeats three times.
-- The same as the standard run with violations in the barpasses, where violations occur only in the orthogonal orientation, with at least two regular bar positions between violations and where all possible violation positions are used. The violations are randomly inserted and can be made for each subject individually
-- The part where only the violations, that occurred in the previous part are shown, without the barpasses of the standard run.
+- The first configuration is the same as the standard run, however there are violations in the barpasses which occur only in the perpendicular orientation, with at least two regular bar positions between violations. All violation positions except the first and the last position of a bar-pass (due to limited visibility) are used once and all positions are violated once. The violations are randomly inserted and new randomiztion can be made for each subject individually.
+- The third configuration only has the violations that occurred in the previous configuration are shown, without the barpasses of the standard run.
+- In the final configuration, the same positions that were previously violated, are now omitted from the regular bar-passes.
 
-These runs can be made by using the last function, at the bottom of the notebook. Here a name can be given to the violated run, which can be subject specific. This run will then be saved in the run_list folder in the experiment folder.
+##### In the second section of the paradigm, the three configurations are shown consecutively for each bar-orientation in a random order.
+
+The final, total runs can be made by using either of the two large functions: create_violation_run() and new_run(). Here a name can be given to the total run, which can be subject specific. This run will then be saved in the run_list folder in the experiment folder.
 ##### **Note! : Now the notebook only saves the violated part of the run, this still has to be altered to all three parts combined.**
